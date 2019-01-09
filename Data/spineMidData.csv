@@ -1,4 +1,4 @@
-TestID',Conditie',SubjectID',TrialNr',NumberOfSegments',SegmentNr',WalkingDirection',SegmentData',Alcohol',Height',Weight',Age',BMI',Balance_MLrange',Balance_MLstdev',Balance_MLmeanVelocity',Balance_APrange',Balance_APstdev',Balance_APmeanVelocity',Balance_MeanVelocity',GaitVelocity',MovementVelocity'
+TestID,Conditie,SubjectID,TrialNr,NumberOfSegments,SegmentNr,WalkingDirection,SegmentData,Alcohol,Height,Weight,Age,BMI,Balance_MLrange,Balance_MLstdev,Balance_MLmeanVelocity,Balance_APrange,Balance_APstdev',Balance_APmeanVelocity,Balance_MeanVelocity,GaitVelocity,MovementVelocity
 001A01',1x1 categorical,1,1,3,1,1x1 categorical,71x4 cell,0,170,65,28,22.49134948,14.6371017,4.258908878,3.703388454,7.838666549,2.229497426,1.557880718,4.299411091,1.074098198,1.081165732
 001A01',1x1 categorical,1,1,3,2,1x1 categorical,70x4 cell,0,170,65,28,22.49134948,14.6371017,4.258908878,3.703388454,7.838666549,2.229497426,1.557880718,4.299411091,1.082204835,1.085548965
 001A01',1x1 categorical,1,1,3,3,1x1 categorical,68x4 cell,0,170,65,28,22.49134948,14.6371017,4.258908878,3.703388454,7.838666549,2.229497426,1.557880718,4.299411091,1.110251289,1.113333326
