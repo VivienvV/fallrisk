@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="GaitTime <= -0.329\ngini = 0.5\nsamples = 214\nvalue = [107, 107]\nclass = Control", fillcolor="#e5813900"] ;
+1 [label="GaitTime <= -0.907\ngini = 0.251\nsamples = 102\nvalue = [87, 15]\nclass = Control", fillcolor="#e58139d3"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="GaitTime <= -1.263\ngini = 0.119\nsamples = 63\nvalue = [59, 4]\nclass = Control", fillcolor="#e58139ee"] ;
+1 -> 2 ;
+3 [label="gini = 0.188\nsamples = 38\nvalue = [34, 4]\nclass = Control", fillcolor="#e58139e1"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 25\nvalue = [25, 0]\nclass = Control", fillcolor="#e58139ff"] ;
+2 -> 4 ;
+5 [label="mean_StepLength <= 0.622\ngini = 0.405\nsamples = 39\nvalue = [28, 11]\nclass = Control", fillcolor="#e581399b"] ;
+1 -> 5 ;
+6 [label="gini = 0.231\nsamples = 30\nvalue = [26, 4]\nclass = Control", fillcolor="#e58139d8"] ;
+5 -> 6 ;
+7 [label="gini = 0.346\nsamples = 9\nvalue = [2, 7]\nclass = Glasses", fillcolor="#399de5b6"] ;
+5 -> 7 ;
+8 [label="mean_StepLength <= -1.215\ngini = 0.293\nsamples = 112\nvalue = [20, 92]\nclass = Glasses", fillcolor="#399de5c8"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Height <= -0.1\ngini = 0.346\nsamples = 9\nvalue = [7, 2]\nclass = Control", fillcolor="#e58139b6"] ;
+8 -> 9 ;
+10 [label="gini = 0.48\nsamples = 5\nvalue = [3, 2]\nclass = Control", fillcolor="#e5813955"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]\nclass = Control", fillcolor="#e58139ff"] ;
+9 -> 11 ;
+12 [label="GaitTime <= 0.042\ngini = 0.221\nsamples = 103\nvalue = [13, 90]\nclass = Glasses", fillcolor="#399de5da"] ;
+8 -> 12 ;
+13 [label="gini = 0.49\nsamples = 21\nvalue = [9, 12]\nclass = Glasses", fillcolor="#399de540"] ;
+12 -> 13 ;
+14 [label="gini = 0.093\nsamples = 82\nvalue = [4, 78]\nclass = Glasses", fillcolor="#399de5f2"] ;
+12 -> 14 ;
+}

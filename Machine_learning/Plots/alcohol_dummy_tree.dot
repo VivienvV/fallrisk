@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="GaitTime <= -2.177\ngini = 0.666\nsamples = 189\nvalue = [65, 61, 63]\nclass = Sober", fillcolor="#e5813904"] ;
+1 [label="gini = 0.0\nsamples = 20\nvalue = [0, 0, 20]\nclass = High", fillcolor="#8139e5ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Height <= 1.34\ngini = 0.657\nsamples = 169\nvalue = [65, 61, 43]\nclass = Sober", fillcolor="#e5813909"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="GaitTime <= 0.767\ngini = 0.624\nsamples = 150\nvalue = [65, 60, 25]\nclass = Sober", fillcolor="#e581390e"] ;
+2 -> 3 ;
+4 [label="Height <= 0.348\ngini = 0.5\nsamples = 96\nvalue = [49, 47, 0]\nclass = Sober", fillcolor="#e581390a"] ;
+3 -> 4 ;
+5 [label="GaitTime <= 0.177\ngini = 0.494\nsamples = 88\nvalue = [49, 39, 0]\nclass = Sober", fillcolor="#e5813934"] ;
+4 -> 5 ;
+6 [label="gini = 0.455\nsamples = 63\nvalue = [41, 22, 0]\nclass = Sober", fillcolor="#e5813976"] ;
+5 -> 6 ;
+7 [label="gini = 0.435\nsamples = 25\nvalue = [8, 17, 0]\nclass = Light", fillcolor="#39e58187"] ;
+5 -> 7 ;
+8 [label="gini = 0.0\nsamples = 8\nvalue = [0, 8, 0]\nclass = Light", fillcolor="#39e581ff"] ;
+4 -> 8 ;
+9 [label="GaitTime <= 1.177\ngini = 0.64\nsamples = 54\nvalue = [16, 13, 25]\nclass = High", fillcolor="#8139e53c"] ;
+3 -> 9 ;
+10 [label="Height <= -0.345\ngini = 0.331\nsamples = 31\nvalue = [3, 3, 25]\nclass = High", fillcolor="#8139e5c8"] ;
+9 -> 10 ;
+11 [label="gini = 0.14\nsamples = 27\nvalue = [1, 1, 25]\nclass = High", fillcolor="#8139e5eb"] ;
+10 -> 11 ;
+12 [label="gini = 0.5\nsamples = 4\nvalue = [2, 2, 0]\nclass = Sober", fillcolor="#e5813900"] ;
+10 -> 12 ;
+13 [label="GaitTime <= 3.084\ngini = 0.491\nsamples = 23\nvalue = [13, 10, 0]\nclass = Sober", fillcolor="#e581393b"] ;
+9 -> 13 ;
+14 [label="gini = 0.432\nsamples = 19\nvalue = [13, 6, 0]\nclass = Sober", fillcolor="#e5813989"] ;
+13 -> 14 ;
+15 [label="gini = 0.0\nsamples = 4\nvalue = [0, 4, 0]\nclass = Light", fillcolor="#39e581ff"] ;
+13 -> 15 ;
+16 [label="gini = 0.1\nsamples = 19\nvalue = [0, 1, 18]\nclass = High", fillcolor="#8139e5f1"] ;
+2 -> 16 ;
+}
