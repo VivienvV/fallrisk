@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Velocity <= 1.596\ngini = 0.498\nsamples = 170\nvalue = [80, 90]\nclass = Good balance", fillcolor="#399de51c"] ;
+1 [label="Velocity <= 1.496\ngini = 0.5\nsamples = 153\nvalue = [78, 75]\nclass = Bad balance", fillcolor="#e581390a"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Velocity <= -1.939\ngini = 0.499\nsamples = 145\nvalue = [70, 75]\nclass = Good balance", fillcolor="#399de511"] ;
+1 -> 2 ;
+3 [label="Height <= 0.392\ngini = 0.165\nsamples = 11\nvalue = [10, 1]\nclass = Bad balance", fillcolor="#e58139e6"] ;
+2 -> 3 ;
+4 [label="gini = 0.375\nsamples = 4\nvalue = [3, 1]\nclass = Bad balance", fillcolor="#e58139aa"] ;
+3 -> 4 ;
+5 [label="gini = 0.0\nsamples = 7\nvalue = [7, 0]\nclass = Bad balance", fillcolor="#e58139ff"] ;
+3 -> 5 ;
+6 [label="Height <= -0.319\ngini = 0.495\nsamples = 134\nvalue = [60, 74]\nclass = Good balance", fillcolor="#399de530"] ;
+2 -> 6 ;
+7 [label="gini = 0.401\nsamples = 36\nvalue = [10, 26]\nclass = Good balance", fillcolor="#399de59d"] ;
+6 -> 7 ;
+8 [label="gini = 0.5\nsamples = 98\nvalue = [50, 48]\nclass = Bad balance", fillcolor="#e581390a"] ;
+6 -> 8 ;
+9 [label="gini = 0.0\nsamples = 8\nvalue = [8, 0]\nclass = Bad balance", fillcolor="#e58139ff"] ;
+1 -> 9 ;
+10 [label="Height <= 1.328\ngini = 0.208\nsamples = 17\nvalue = [2, 15]\nclass = Good balance", fillcolor="#399de5dd"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+11 [label="gini = 0.0\nsamples = 14\nvalue = [0, 14]\nclass = Good balance", fillcolor="#399de5ff"] ;
+10 -> 11 ;
+12 [label="gini = 0.444\nsamples = 3\nvalue = [2, 1]\nclass = Bad balance", fillcolor="#e581397f"] ;
+10 -> 12 ;
+}
